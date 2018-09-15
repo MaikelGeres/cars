@@ -18,6 +18,15 @@ class repairs:
 		self.rpr_cost = float(arg_rpr_cost)
 		self.rpr_time = str(arg_rpr_time)
 		
+		
+	def func1(self):
+		pass
+	
+	def func2(self):
+		pass
+		
+	def func3(self):
+		pass
 
 class vehicle:
 	"""
