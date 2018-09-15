@@ -7,7 +7,11 @@ class vehicle:
 	A class for the basic objects and methods for any vehicle
 	"""
 	
-	def __init__(self, sr, mk, mdl, yr, plt_num):
+	# a list of all the vehicles in the city
+	all_vehicles_in_city = []
+	
+	
+	def __init__(self, sn, mk, mdl, yr, plt_num):
 		"""
 		Constructor to create a vhecile object with the make, model, and the plate number
 		"""
@@ -22,6 +26,9 @@ class vehicle:
 		# owners
 		self.vh_owners = []
 		
+		# save the vehicle in the all vehicles list
+		all_vehicles_in_city.append(self)
+		
 	
 	def cur_owner_full_name(self, person_name):
 		"""
@@ -30,6 +37,9 @@ class vehicle:
 		
 		self.vh_owners.append(str(person_name))
 		
+
+
+
 
 
 
