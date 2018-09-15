@@ -19,7 +19,6 @@ class repairs:
 		self.rpr_time = str(arg_rpr_time)
 		
 
-
 class vehicle:
 	"""
 	A class for the basic objects and methods for any vehicle
