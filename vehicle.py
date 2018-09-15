@@ -7,12 +7,18 @@ class repairs:
 	Repair object
 	"""
 	
-	def --init__(self):
+	def __init__(self, arg_vh_obj, arg_rpr_loc, arg_rpr_description, arg_rpr_cost, arg_rpr_time):
+		"""
+		Creates a repair object
 		"""
 		
-		
-		"""
-		pass
+		self.rpr_vh = arg_vh_obj
+		self.rpr_location = str(arg_rpr_loc)
+		self.rpr_description = str(arg_rpr_description)
+		self.rpr_cost = float(arg_rpr_cost)
+		self.rpr_time = str(arg_rpr_time)
+
+
 
 
 class vehicle:
