@@ -17,18 +17,7 @@ class repairs:
 		self.rpr_description = str(arg_rpr_description)
 		self.rpr_cost = float(arg_rpr_cost)
 		self.rpr_time = str(arg_rpr_time)
-
-	
-	def return_repair_price(self):
-		"""
 		
-		
-		"""
-		
-		# profit percentage
-		profit_percentage = 20
-		
-		return (self.rpr_cost + (self.rpr_cost*profit_percentage))
 
 
 class vehicle:
