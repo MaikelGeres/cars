@@ -2,6 +2,19 @@
 vehicles common funtions and classes
 """
 
+class repairs:
+	"""
+	Repair object
+	"""
+	
+	def --init__(self):
+		"""
+		
+		
+		"""
+		pass
+
+
 class vehicle:
 	"""
 	A class for the basic objects and methods for any vehicle
@@ -23,21 +36,20 @@ class vehicle:
 		self.vh_yr = str(yr)
 		self.vh_mk = str(plt_num)
 		
-		# owners
+		# a list of vehicle owners objects
 		self.vh_owners = []
 		
 		# save the vehicle in the all vehicles list
 		all_vehicles_in_city.append(self)
 		
 	
-	def cur_owner_full_name(self, person_name):
+	def set_owner(self, vh_owner):
 		"""
-		Sets the current vehicle owner full name
+		Sets the current vehicle owner object
 		"""
 		
-		self.vh_owners.append(str(person_name))
+		self.vh_owners.append(vh_owner))
 		
-
 
 
 
